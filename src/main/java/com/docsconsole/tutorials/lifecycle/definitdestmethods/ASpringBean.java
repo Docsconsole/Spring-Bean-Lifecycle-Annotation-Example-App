@@ -18,7 +18,7 @@ public class ASpringBean {
     }
 
     public void aSpringBeanPostConstruct() {
-        System.out.println("aSpringBeanPostConstruct()");
+        System.out.println(":::::::<<<<<:::::::  aSpringBeanPostConstruct()@ASpringBean    :::::::>>>>>>:::::::" + bSpringBean);
     }
 
     @Autowired
@@ -32,6 +32,6 @@ public class ASpringBean {
     }
 
     public void aSpringBeanCleanUp() {
-        System.out.println("aSpringBeanCleanUp method");
+        System.out.println(":::::::<<<<<:::::::  aSpringBeanCleanUp method@ASpringBean    :::::::>>>>>>:::::::" + bSpringBean);
     }
 }
