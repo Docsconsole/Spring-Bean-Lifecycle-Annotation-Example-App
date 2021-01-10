@@ -48,7 +48,7 @@ public class ASpringBean implements ApplicationContextAware,
     }
 
     public void _ASpringBeanCleanUp() {
-        System.out.println(":::::::<<<<<:::::::  ASpringBeanCleanUp() method  :::::::>>>>>>:::::::");
+        System.out.println(":::::::<<<<<:::::::  _ASpringBeanCleanUp() method  :::::::>>>>>>:::::::");
     }
 
     @Override
@@ -100,7 +100,7 @@ public class ASpringBean implements ApplicationContextAware,
     @Override
     public void setBeanFactory(BeanFactory arg0) throws BeansException {
         // TODO Auto-generated method stub
-        System.out.println(":::::::<<<<<:::::::  setBeanFactory@BeanFactoryAware    :::::::>>>>>>:::::::");
+        System.out.println(":::::::<<<<<:::::::  afterPropertiesSet()@InitializingBean    :::::::>>>>>>:::::::");
     }
 
     @Override
